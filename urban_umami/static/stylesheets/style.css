@@ -1216,6 +1216,10 @@ h3 {
   color: var(--button-text-color);
   margin: 5px;
 }
+button{
+  border: none;
+  outline: none;
+}
 .reserve_main_div_1 button {
   font-size: var(--major-para-font-size);
   color: var(--background-color-navbar);

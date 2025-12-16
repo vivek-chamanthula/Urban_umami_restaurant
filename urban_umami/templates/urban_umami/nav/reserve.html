@@ -35,7 +35,7 @@
                     {% if request.session.role == 'customer' %}
                     <a href="#" id="order">ORDER</a>
                     {% else %}
-                    <a href="{% url 'order' %}" id="mark">ORDER</a>
+                    <a href="{% url 'order' %}">ORDER</a>
                     {% endif %}
                     </li>
                     <li><a href="{% url 'reserve' %}" id="mark">RESERVE</a></li>
